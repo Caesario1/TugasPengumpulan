@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="464.0" prefWidth="841.0" style="-fx-background-color: #c0392b;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tomboluwe.FXMLHomeController">
+    <children>
+      <AnchorPane layoutY="-10.0" prefHeight="471.0" prefWidth="839.0">
+         <children>
+            <JFXCheckBox fx:id="mak1" checkedColor="WHITE" layoutX="40.0" layoutY="107.0" onAction="#nasiAnget" prefHeight="25.0" prefWidth="132.0" text="Nasi anget" textFill="WHITE" unCheckedColor="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </JFXCheckBox>
+            <Label layoutX="11.0" layoutY="421.0" prefHeight="17.0" prefWidth="288.0" text="\@Copyright Cupu" textFill="WHITE" />
+            <Separator layoutX="11.0" layoutY="430.0" prefHeight="33.0" prefWidth="150.0" />
+            <Separator layoutX="22.0" layoutY="57.0" prefHeight="17.0" prefWidth="420.0" />
+            <Separator layoutX="22.0" layoutY="289.0" prefHeight="17.0" prefWidth="420.0" />
+            <JFXCheckBox fx:id="mak2" checkedColor="WHITE" layoutX="40.0" layoutY="145.0" onAction="#bebekgoreng" text="bebek goreng" textFill="WHITE" unCheckedColor="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="mak3" checkedColor="WHITE" layoutX="40.0" layoutY="182.0" text="Lele Goreng" textFill="WHITE" unCheckedColor="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="mak4" checkedColor="WHITE" layoutX="40.0" layoutY="219.0" text="belut goreng" textFill="WHITE" unCheckedColor="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="mak5" checkedColor="WHITE" layoutX="40.0" layoutY="254.0" text="ikan kakap goreng" textFill="WHITE" unCheckedColor="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="mak6" checkedColor="WHITE" layoutX="40.0" layoutY="313.0" text="Teh panas" textFill="WHITE" unCheckedColor="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="mak7" checkedColor="WHITE" layoutX="39.0" layoutY="349.0" text="Jeruk anget" textFill="WHITE" unCheckedColor="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="mak8" checkedColor="WHITE" layoutX="40.0" layoutY="385.0" text="Beras Kencur" textFill="WHITE" unCheckedColor="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </JFXCheckBox>
+            <Text fill="WHITE" layoutX="105.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MENU NE TOMBO LUWE" wrappingWidth="261.13671875">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+            </Text>
+            <Label fx:id="hargaMakanan" layoutX="255.0" layoutY="103.0" prefHeight="33.0" prefWidth="187.0" text="10.000" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Label>
+            <Label fx:id="hargaMakanan1" layoutX="255.0" layoutY="141.0" prefHeight="33.0" prefWidth="187.0" text="25.000" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="hargaMakanan11" layoutX="255.0" layoutY="178.0" prefHeight="33.0" prefWidth="187.0" text="15.000" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="hargaMakanan13" layoutX="255.0" layoutY="215.0" prefHeight="33.0" prefWidth="187.0" text="15.000" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="hargaMakanan12" layoutX="255.0" layoutY="250.0" prefHeight="33.0" prefWidth="187.0" text="30.000" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="hargaMakanan121" layoutX="255.0" layoutY="309.0" prefHeight="33.0" prefWidth="187.0" text="5.000" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="hargaMakanan1211" layoutX="255.0" layoutY="381.0" prefHeight="33.0" prefWidth="187.0" text="5.000" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="hargaMakanan12111" layoutX="255.0" layoutY="345.0" prefHeight="33.0" prefWidth="187.0" text="5.000" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="jumlah1" focusColor="WHITE" layoutX="368.0" layoutY="107.0" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: #ffffff;" unFocusColor="WHITE" />
+            <JFXTextField fx:id="jumlah6" focusColor="WHITE" layoutX="368.0" layoutY="313.0" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: #ffffff;" unFocusColor="WHITE" />
+            <JFXTextField fx:id="jumlah7" focusColor="WHITE" layoutX="368.0" layoutY="349.0" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: #ffffff;" unFocusColor="WHITE" />
+            <JFXTextField fx:id="jumlah8" focusColor="WHITE" layoutX="368.0" layoutY="385.0" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: #ffffff;" unFocusColor="WHITE" />
+            <JFXTextField fx:id="jumlah2" focusColor="WHITE" layoutX="368.0" layoutY="145.0" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: #ffffff;" unFocusColor="WHITE" />
+            <JFXTextField fx:id="jumlah3" focusColor="WHITE" layoutX="368.0" layoutY="182.0" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: #ffffff;" unFocusColor="WHITE" />
+            <JFXTextField fx:id="jumlah4" focusColor="WHITE" layoutX="368.0" layoutY="219.0" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: #ffffff;" unFocusColor="WHITE" />
+            <JFXTextField fx:id="jumlah5" focusColor="WHITE" layoutX="368.0" layoutY="254.0" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: #ffffff;" unFocusColor="WHITE" />
+            <Label layoutX="256.0" layoutY="86.0" prefHeight="17.0" prefWidth="62.0" style="-fx-background-color: #E74C3C;" text="HARGA" textFill="#fcefef" />
+            <Label layoutX="373.0" layoutY="86.0" prefHeight="17.0" prefWidth="62.0" style="-fx-background-color: #E74C3C;" text="JUMLAH" textFill="#f2e6e6" />
+            <JFXButton fx:id="btnCetak1" layoutX="278.0" layoutY="428.0" onAction="#Hitung" prefHeight="25.0" prefWidth="167.0" style="-fx-background-color: #E74c3c;" text="Hitung" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="483.0" layoutY="10.0" prefHeight="430.0" prefWidth="326.0" style="-fx-background-color: #ecf0f1;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <JFXTextField fx:id="inAn" focusColor="BLACK" layoutX="136.0" layoutY="33.0" prefHeight="25.0" prefWidth="167.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXTextField>
+            <Label layoutX="25.0" layoutY="38.0" prefHeight="25.0" prefWidth="125.0" text="Atas Nama">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="82.0" prefHeight="25.0" prefWidth="125.0" text="Pilih">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="117.0" prefHeight="25.0" prefWidth="125.0" text="Total Bayar">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="161.0" prefHeight="25.0" prefWidth="125.0" text="Jumlah Uang">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="jumlahUang" focusColor="BLACK" layoutX="136.0" layoutY="159.0" prefHeight="25.0" prefWidth="167.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXTextField>
+            <Label fx:id="total" layoutX="136.0" layoutY="114.0" prefHeight="25.0" prefWidth="125.0" text="Total">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="btnCetak" layoutX="136.0" layoutY="218.0" onAction="#CetakPemesan" prefHeight="25.0" prefWidth="167.0" style="-fx-background-color: #E74c3c;" text="CETAK" />
+            <JFXTextArea fx:id="hasilPesanan" focusColor="BLACK" layoutX="19.0" layoutY="255.0" prefHeight="161.0" prefWidth="288.0" unFocusColor="BLACK" />
+            <JFXRadioButton fx:id="radio1" layoutX="115.0" layoutY="86.0" prefHeight="17.0" prefWidth="118.0" text="Dibungkus">
+               <toggleGroup>
+                  <ToggleGroup fx:id="keterangan" />
+               </toggleGroup>
+            </JFXRadioButton>
+            <JFXRadioButton fx:id="radio2" layoutX="208.0" layoutY="86.0" prefHeight="17.0" prefWidth="118.0" text="Makan Sini" toggleGroup="$keterangan" />
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>

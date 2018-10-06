@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="448.0" prefWidth="816.0" style="-fx-background-color: #c0392b;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tomboluwe.FXMLLoginController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <AnchorPane layoutX="442.0" layoutY="24.0" prefHeight="407.0" prefWidth="350.0" style="-fx-background-color: #ecf0f1;">
+         <children>
+            <JFXButton id="btnLogin" fx:id="btnLogin" layoutX="37.0" layoutY="308.0" onAction="#handleButtonAction" prefHeight="40.0" prefWidth="288.0" style="-fx-background-color: #e74c3c;" text="Login" textFill="WHITE" />
+            <JFXTextField id="InUser" fx:id="InUser" focusColor="#e74c3c" layoutX="37.0" layoutY="149.0" prefHeight="25.0" prefWidth="288.0" text="Username" unFocusColor="#e74c3c">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField id="InPass" fx:id="InPass" focusColor="#e74c3c" layoutX="37.0" layoutY="231.0" prefHeight="25.0" prefWidth="288.0" text="Password" unFocusColor="#e74c3c">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXPasswordField>
+            <ImageView fitHeight="92.0" fitWidth="150.0" layoutX="137.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../gambar/icon-hi.png" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+      <Label layoutX="29.0" layoutY="407.0" prefHeight="17.0" prefWidth="288.0" text="\@Copyright Cupu" textFill="WHITE" />
+      <Separator layoutX="29.0" layoutY="415.0" prefHeight="33.0" prefWidth="150.0" />
+      <ImageView fitHeight="259.0" fitWidth="427.0" layoutX="14.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/4.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="184.0" fitWidth="288.0" layoutX="67.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="188.0" fitWidth="277.0" layoutX="151.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/3.jpg" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
